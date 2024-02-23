@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/space/static/css/main.2e6fbcea.css",
+    "main.js": "/space/static/js/main.aca931a0.js",
+    "static/media/bg-header.png": "/space/static/media/bg-header.4aab6891aa0154909619.png",
+    "static/media/earth.svg": "/space/static/media/earth.f7523148f2c891a28c39.svg",
+    "static/media/bg-4.png": "/space/static/media/bg-4.5b2dff8c33adfdbf061e.png",
+    "static/media/bg-3.png": "/space/static/media/bg-3.1903d0de84f9728226bb.png",
+    "static/media/bg-1.png": "/space/static/media/bg-1.041b7b0272dfbd17a6ff.png",
+    "static/media/roket.svg": "/space/static/media/roket.10125416122e549354be.svg",
+    "static/media/bg-2.png": "/space/static/media/bg-2.fc4e80e969acf88f1fe5.png",
+    "static/media/Lato-Bold.ttf": "/space/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "static/media/Lato-Black.ttf": "/space/static/media/Lato-Black.57dee8aface5572f9101.ttf",
+    "static/media/logo.svg": "/space/static/media/logo.f4153131d3955bdfa609912a9f3b5caf.svg",
+    "static/media/shopping-cart-active.svg": "/space/static/media/shopping-cart-active.130703b7b0cf9871648ffbe073cd6187.svg",
+    "static/media/shopping-cart.svg": "/space/static/media/shopping-cart.5fdc8f10c95015c32240615c1ad34fbf.svg",
+    "index.html": "/space/index.html",
+    "main.2e6fbcea.css.map": "/space/static/css/main.2e6fbcea.css.map",
+    "main.aca931a0.js.map": "/space/static/js/main.aca931a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e6fbcea.css",
+    "static/js/main.aca931a0.js"
+  ]
+}
