@@ -1,0 +1,4 @@
+npm version: 8.0.0
+node version: v18.19.0
+
+время выполнения - 16 ч.
