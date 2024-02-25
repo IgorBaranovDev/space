@@ -137,9 +137,16 @@ $screen-sm: 360px;
         }
 
         &:hover {
-          color: $color-default-2;
+          background: linear-gradient(
+            98.25deg,
+            $color-default-2 18.56%,
+            $color-default-1 76.02%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
       }
+
       .cart-link {
         position: relative;
         top: 0.2rem;
@@ -222,26 +229,11 @@ $screen-sm: 360px;
       width: 100%;
       margin-top: 80px;
       height: 490px;
-
-      &.placeholder {
-        background-color: $color-default-6;
-        box-shadow: 0 -200px 100px -120px $color-default-3;
-        animation: background-color 3s infinite alternate;
-        @keyframes background-color {
-          50% {
-            background: $color-default-3;
-            box-shadow: 0 -200px 100px -100px $color-default-6 inset;
-          }
-        }
-      }
-
-      &.loaded-bg {
-        background-image: url("../public/images/earth.svg"),
-          url("../public/images/bg-header.png");
-        background-repeat: no-repeat, no-repeat;
-        background-position: 93% 64%, center;
-        background-size: 356px, cover;
-      }
+      background-image: url("../public/images/earth.svg"),
+        url("../public/images/bg-header.png");
+      background-repeat: no-repeat, no-repeat;
+      background-position: 93% 64%, center;
+      background-size: 356px, cover;
 
       @media screen and (max-width: $screen-md) {
         height: 420px;

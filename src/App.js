@@ -116,18 +116,8 @@ function Main() {
 }
 
 function BannerContainer() {
-  const [isLoadedImg, setIsLoadedBgImg] = useState(false);
-
-  useEffect(() => {
-    const img = new Image();
-    img.onload = () => {
-      setIsLoadedBgImg(true);
-    };
-    img.src = process.env.PUBLIC_URL + "/images/bg-header.png";
-  }, []);
-
   return (
-    <div className={`banner ${isLoadedImg ? "loaded-bg" : "placeholder"}`}>
+    <div className="banner">
       <div className="banner__content">
         <h1 className="banner__title">
           Discover the vast expanses of <span>space</span>
